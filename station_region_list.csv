@@ -1,0 +1,177 @@
+﻿Station ID,Station Name,Group Median Regions,Region Name,NDBC Master Regions
+1611400,"Nawiliwili, HI",HWI,Hawaii,Pacific Islands
+1612340,"Honolulu, HI",HWI,Hawaii,Pacific Islands
+1612480,"Mokuoloe, HI",HWI,Hawaii,Pacific Islands
+1615680,"Kahului, HI",HWI,Hawaii,Pacific Islands
+1617433,"Kawaihae, HI",HWI,Hawaii,Pacific Islands
+1617760,"Hilo, HI",HWI,Hawaii,Pacific Islands
+1619910,"Sand Island, Midway",HWI,Hawaii,Pacific Islands
+1630000,"Apra Harbor, Guam",PCI,Pacific Islands,Pacific Islands
+1770000,"Pago Pago, AS",PCI,Pacific Islands,Pacific Islands
+1820000,"Kwajalein, MI",PCI,Pacific Islands,Pacific Islands
+1890000,Wake Island,PCI,Pacific Islands,Pacific Islands
+2695540,"Bermuda - St. Georges, BM",BMD,Bermuda,Atlantic/Caribbean Islands
+8410140,"Eastport, ME",GOM,Gulf of Maine,Northeast
+8413320,"Bar Harbor, ME",GOM,Gulf of Maine,Northeast
+8418150,"Portland, ME",GOM,Gulf of Maine,Northeast
+8443970,"Boston, MA",GOM,Gulf of Maine,Northeast
+8447386,"Fall River, MA",NTS,Nantucket Shoals,Northeast
+8447930,"Woods Hole, MA",NTS,Nantucket Shoals,Northeast
+8449130,"Nantucket Island, MA",NTS,Nantucket Shoals,Northeast
+8452660,"Newport, RI",NTS,Nantucket Shoals,Northeast
+8452944,"Conimicut Light, RI",NTS,Nantucket Shoals,Northeast
+8454000,"Providence, RI",NTS,Nantucket Shoals,Northeast
+8454049,"Quonset Point, RI",NTS,Nantucket Shoals,Northeast
+8461490,"New London, CT",LIS,Long Island Sound,Northeast
+8465705,"New Haven, CT",LIS,Long Island Sound,Northeast
+8467150,"Bridgeport, CT",LIS,Long Island Sound,Northeast
+8510560,"Montauk, NY",LIS,Long Island Sound,Northeast
+8516945,"Kings Point, NY",LIS,Long Island Sound,Northeast
+8518750,"The Battery - Manhattan, NY",RTB,Raritan Bay,Northeast
+8519483,"Bergen Point West Reach, NY",RTB,Raritan Bay,Northeast
+8531680,"Sandy Hook, NJ",RTB,Raritan Bay,Northeast
+8534720,"Atlantic City, NJ",RTB,Raritan Bay,Northeast
+8536110,"Cape May, NJ",LDJ,Lower Delaware/Jersey Coast,Northeast
+8537121,"Ship John Shoal, NJ",LDJ,Lower Delaware/Jersey Coast,Northeast
+8539094,"Burlington - Delaware River, NJ",DRC,Delaware River/Canals,Northeast
+8540433,"Marcus Hook, PA",DRC,Delaware River/Canals,Northeast
+8545240,"Philadelphia, PA",DRC,Delaware River/Canals,Northeast
+8548989,"Newbold, PA",DRC,Delaware River/Canals,Northeast
+8551762,"Delaware City, DE",DRC,Delaware River/Canals,Northeast
+8551910,"Reedy Point, DE",DRC,Delaware River/Canals,Northeast
+8555889,"Brandywine Shoal Light, DE",LDJ,Lower Delaware/Jersey Coast,Northeast
+8557380,"Lewes, DE",LDJ,Lower Delaware/Jersey Coast,Northeast
+8571421,"Bishops Head - Hoopers Strait, MD",PCC,Potomac/Central Chesapeake,Southeast
+8571892,"Cambridge, MD",PCC,Potomac/Central Chesapeake,Southeast
+8573364,"Tolchester Beach, MD",NCB,North Chesapeake Bay,Northeast
+8573927,"Chesapeake City, MD",NCB,North Chesapeake Bay,Northeast
+8574680,"Baltimore, MD",NCB,North Chesapeake Bay,Northeast
+8577330,"Solomons Island, MD",PCC,Potomac/Central Chesapeake,Southeast
+8594900,"Washington, DC",NCB,North Chesapeake Bay,Southeast
+8631044,"Wachapreague, VA",VOB,Virginia/North Outer Banks,Southeast
+8632200,"Kiptopeke, VA",TSC,Tidewater/South Chesapeake,Southeast
+8635750,"Lewisetta, VA",PCC,Potomac/Central Chesapeake,Southeast
+8637689,"Yorktown USCG Training Center, VA",TSC,Tidewater/South Chesapeake,Southeast
+8638610,"Sewell's Point, VA",TSC,Tidewater/South Chesapeake,Southeast
+8638863,"Chesapeake Bay Bridge Tunnel, VA",TSC,Tidewater/South Chesapeake,Southeast
+8639348,"Money Point, VA",TSC,Tidewater/South Chesapeake,Southeast
+8651370,"Duck Pier, NC",VOB,Virginia/North Outer Banks,Southeast
+8652587,"Oregon Inlet Marina, NC",VOB,Virginia/North Outer Banks,Southeast
+8656483,"Beaufort, NC",CCL,Coastal Carolinas,Southeast
+8658120,"Wilmington, NC",CCL,Coastal Carolinas,Southeast
+8658163,"Wrightsville Beach, NC",CCL,Coastal Carolinas,Southeast
+8661070,"Myrtle Beach - Springmaid Pier, SC",CCL,Coastal Carolinas,Southeast
+8665530,"Charleston, SC",CCL,Coastal Carolinas,Southeast
+8670870,"Fort Pulaski, GA",CCL,Coastal Carolinas,Southeast
+8720030,"Fernandina Beach, FL",CCL,Coastal Carolinas,Florida/East Gulf of Mexico
+8720218,"Mayport Bar Pilots Dock, FL",CCL,Coastal Carolinas,Florida/East Gulf of Mexico
+8721604,"Trident Pier - Cape Canaveral, FL",SFK,South Florida/Keys,Florida/East Gulf of Mexico
+8723214,"Virginia Key, FL",SFK,South Florida/Keys,Florida/East Gulf of Mexico
+8723970,"Vaca Key, FL",SFK,South Florida/Keys,Florida/East Gulf of Mexico
+8724580,"Key West, FL",SFK,South Florida/Keys,Florida/East Gulf of Mexico
+8725110,"Naples, FL",WFL,West Florida,Florida/East Gulf of Mexico
+8725520,"Fort Myers, FL",WFL,West Florida,Florida/East Gulf of Mexico
+8726520,"St. Petersburg, FL",WFL,West Florida,Florida/East Gulf of Mexico
+8726724,"Clearwater Beach, FL",WFL,West Florida,Florida/East Gulf of Mexico
+8727520,"Cedar Key, FL",WFL,West Florida,Florida/East Gulf of Mexico
+8728690,"Apalachiola, FL",FPA,Florida Panhandle/Alabama,Florida/East Gulf of Mexico
+8729108,"Panama City, FL",FPA,Florida Panhandle/Alabama,Florida/East Gulf of Mexico
+8729210,"Panama City Beach, FL",FPA,Florida Panhandle/Alabama,Florida/East Gulf of Mexico
+8729840,"Pensacola, FL",FPA,Florida Panhandle/Alabama,Florida/East Gulf of Mexico
+8735180,"Dauphin Island, AL",FPA,Florida Panhandle/Alabama,Florida/East Gulf of Mexico
+8760922,"Pilot's Station East - SW Pass, LA",SLC,Southern Louisiana Coast,Florida/East Gulf of Mexico
+8761724,"Grand Isle, LA",SLC,Southern Louisiana Coast,Florida/East Gulf of Mexico
+8762482,"West Bank 1 - Bayou Gauche, LA",SLC,Southern Louisiana Coast,Florida/East Gulf of Mexico
+8768094,"Calcasieu Pass, LA",SLC,Southern Louisiana Coast,West Gulf of Mexico
+8770475,"Port Arthur - Sabine Naches Canal, TX",SLC,Southern Louisiana Coast,West Gulf of Mexico
+8770570,"Sabine Pass North, TX",SLC,Southern Louisiana Coast,West Gulf of Mexico
+8770613,"Morgans Point, TX",GVB,Galveston Bay,West Gulf of Mexico
+8770971,"Rollover Pass, TX",GVB,Galveston Bay,West Gulf of Mexico
+8771013,"Eagle Point - Galveston Bay, TX",GVB,Galveston Bay,West Gulf of Mexico
+8771341,"Galveston Bay Entrance, TX",GVB,Galveston Bay,West Gulf of Mexico
+8771450,"Galveston Pier 21, TX",GVB,Galveston Bay,West Gulf of Mexico
+8771510,Galveston Pleasure Pier,GVB,Galveston Bay,West Gulf of Mexico
+8771972,"San Luis Pass - West Bay, TX",GVB,Galveston Bay,West Gulf of Mexico
+8773037,"Seadrift - San Antonio, TX",MGB,Matagorda Bay,West Gulf of Mexico
+8773259,"Port Lavaca - Lavaca Causeway, TX",MGB,Matagorda Bay,West Gulf of Mexico
+8773701,"Port O'Connor - Matagorda Bay, TX",MGB,Matagorda Bay,West Gulf of Mexico
+8774770,"Rockport, TX",MGB,Matagorda Bay,West Gulf of Mexico
+8775237,"Port Aransas, TX",CCB,Corpus Christi Bay,West Gulf of Mexico
+8775283,"Enbridge - Port Ingleside, TX",CCB,Corpus Christi Bay,West Gulf of Mexico
+8775296,"USS Lexington - Corpus Christi, TX",CCB,Corpus Christi Bay,West Gulf of Mexico
+8775792,"Packery Channel, TX",CCB,Corpus Christi Bay,West Gulf of Mexico
+8775870,"Corpus Christi - Bob Hall Pier, TX",CCB,Corpus Christi Bay,West Gulf of Mexico
+8776139,"South Bird Island, TX",CCB,Corpus Christi Bay,West Gulf of Mexico
+8776604,"Baffin Bay, TX",CCB,Corpus Christi Bay,West Gulf of Mexico
+8777812,"Rincon del San Jose, TX",STC,Southern Texas Coast,West Gulf of Mexico
+8778490,"Port Mansfield, TX",STC,Southern Texas Coast,West Gulf of Mexico
+8779748,"South Padre Island CG Station, TX",STC,Southern Texas Coast,West Gulf of Mexico
+8779770,"Port Isabel, TX",STC,Southern Texas Coast,West Gulf of Mexico
+9052030,"Oswego, NY",LEO,Lake Erie/Ontario,Great Lakes
+9063020,"Buffalo, NY",LEO,Lake Erie/Ontario,Great Lakes
+9063063,"Cleveland, OH",LEO,Lake Erie/Ontario,Great Lakes
+9063079,"Marblehead, OH",LEO,Lake Erie/Ontario,Great Lakes
+9063085,"Toledo, OH",LEO,Lake Erie/Ontario,Great Lakes
+9075014,"Harbor Beach, MI",UGL,Upper Great Lakes ,Great Lakes
+9075099,"DeTour Village, MI",UGL,Upper Great Lakes ,Great Lakes
+9076024,"Rock Cut, MI",UGL,Upper Great Lakes ,Great Lakes
+9076070,"S.W. Pier, MI",UGL,Upper Great Lakes ,Great Lakes
+9087023,"Ludington, MI",UGL,Upper Great Lakes ,Great Lakes
+9087044,"Calumet Harbor, IL",UGL,Upper Great Lakes ,Great Lakes
+9087088,"Menominee, MI",UGL,Upper Great Lakes ,Great Lakes
+9099004,"Point Iroquois, MI",UGL,Upper Great Lakes ,Great Lakes
+9099018,"Marquette C.G., MI",UGL,Upper Great Lakes ,Great Lakes
+9099064,"Duluth, MN",UGL,Upper Great Lakes ,Great Lakes
+9099090,"Grand Marais, MN",UGL,Upper Great Lakes ,Great Lakes
+9410170,"San Diego, CA",SCA,Southern California,Southwest
+9410230,"La Jolla, CA",SCA,Southern California,Southwest
+9410647,"Angels Gate, CA",SCA,Southern California,Southwest
+9410660,"Los Angeles - Outer Harbor, CA",SCA,Southern California,Southwest
+9410670,"Los Angeles Pier F, CA",SCA,Southern California,Southwest
+9410840,"Santa Monica Pier, CA",SCA,Southern California,Southwest
+9411340,"Santa Barbara, CA",SCA,Southern California,Southwest
+9412110,"Port San Luis, CA",SCA,Southern California,Southwest
+9413450,"Monterey, CA",NCC,Northern & Central California ,Southwest
+9414290,"San Francisco, CA",SFB,San Francisco Bay,Southwest
+9414523,"Redwood City, CA",SFB,San Francisco Bay,Southwest
+9414750,"Alameda, CA",SFB,San Francisco Bay,Southwest
+9414863,"Richmond, CA",SFB,San Francisco Bay,Southwest
+9415020,"Point Reyes, CA",NCC,Northern & Central California ,Southwest
+9415144,"Port Chicago, CA",SFB,San Francisco Bay,Southwest
+9416841,"Arena Cove, CA",NCC,Northern & Central California ,Southwest
+9418767,"North Spit, CA",NCC,Northern & Central California ,Northwest
+9419750,"Crescent City, CA",NCC,Northern & Central California ,Northwest
+9431647,"Port Orford, OR",WSC,Washington Coast,Northwest
+9432780,"Charleston - Coos Bay, OR",WSC,Washington Coast,Northwest
+9435380,"South Beach - Yaquina River, OR",WSC,Washington Coast,Northwest
+9439040,"Astoria, OR",WSC,Washington Coast,Northwest
+9440910,"Toke Point, WA",WSC,Washington Coast,Northwest
+9442396,"La Push, WA",WSC,Washington Coast,Northwest
+9443090,"Neah Bay, WA",WSC,Washington Coast,Northwest
+9444090,"Port Angeles, WA",SWS,Straits of Washington,Northwest
+9444900,"Port Townsend, WA",SWS,Straits of Washington,Northwest
+9446484,"Tacoma, WA",SWS,Straits of Washington,Northwest
+9447130,"Seattle, WA",SWS,Straits of Washington,Northwest
+9449424,"Cherry Point, WA",SWS,Straits of Washington,Northwest
+9449880,"Friday Harbor, WA",SWS,Straits of Washington,Northwest
+9450460,"Ketchikan, AK",AAP,Alexander Archipelago,Alaska
+9451600,"Sitka, AK",AAP,Alexander Archipelago,Alaska
+9452210,"Juneau, AK",AAP,Alexander Archipelago,Alaska
+9453220,"Yakutat Bay, AK",AAP,Alexander Archipelago,Alaska
+9454050,"Cordova, AK",SAC,Southern Alaska Coast,Alaska
+9454240,"Valdez, AK",SAC,Southern Alaska Coast,Alaska
+9455090,"Seward, AK",SAC,Southern Alaska Coast,Alaska
+9455500,"Seldovia, AK",SAC,Southern Alaska Coast,Alaska
+9455760,"Nikiski, AK",SAC,Southern Alaska Coast,Alaska
+9455920,"Anchorage, AK",SAC,Southern Alaska Coast,Alaska
+9457292,"Kodiak Island, AK",ALA,Aleutian Alaska,Alaska
+9459450,"Sand Point, AK",ALA,Aleutian Alaska,Alaska
+9461380,"Adak Island, AK",ALA,Aleutian Alaska,Alaska
+9462620,"Unalaska, AK",ALA,Aleutian Alaska,Alaska
+9468756,"Nome - Norton Sound, AK",NAK,Northern Alaska,Alaska
+9491094,"Red Dog Dock, AK",NAK,Northern Alaska,Alaska
+9497645,"Prudhoe Bay, AK",NAK,Northern Alaska,Alaska
+9751401,"Lime Tree Bay - St. Croix, VI",USC,US Caribbean Territories,Atlantic/Caribbean Islands
+9751639,"Charlotte Amalie - St. Thomas, VI",USC,US Caribbean Territories,Atlantic/Caribbean Islands
+9755371,"San Juan Bay, PR",USC,US Caribbean Territories,Atlantic/Caribbean Islands
+9759110,"Magueys Islands, PR",USC,US Caribbean Territories,Atlantic/Caribbean Islands
