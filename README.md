@@ -19,7 +19,7 @@ The QA/QCed daily water temperature data is currently available on github with t
 
 ## Running the notebooks
 
-Python notebooks can be run in different environments. These notebooks were created in [Google Colab](https://colab.research.google.com/), but can also be run locally using Jupyter Notebookm VS Code, or PyCharm. To run locally, make sure to edit the file paths to your preferred location as the script outputs graphics. Comment out the code cell under Step 2 if running locally.
+Python notebooks can be run in different environments. These notebooks were created in [Google Colab](https://colab.research.google.com/), but can also be run locally using Jupyter Notebookm VS Code, or PyCharm. Both of the notebooks create a folder for the graphic outputs in the user's working directory.
 
 ## Notebook description
 
@@ -29,10 +29,9 @@ The **Coastal_temo_final_reginal_graphics.ipynb** allows users to explore the cl
 
 #### For additional information, contact:
 
-NOAA's Center for Operational Oceanographic Products and Services, [Coastal Hazards Branch](https://tidesandcurrents.noaa.gov/coastal_hazards.html)
+NOAA's [Center for Operational Oceanographic Products and Services](https://tidesandcurrents.noaa.gov)
 
-
-nos.co-ops.chb@noaa.gov
+Email: tide.predictions@noaa.gov
 
 ## NOAA Open Source Disclaimer
 
