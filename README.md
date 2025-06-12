@@ -9,7 +9,7 @@ This repository contains both a station and regional-based notebook along with a
 
 All data comes from CO-OPS's sensors. Stations with water temperature data can be found via [CO-OPS Metadata API](https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=watertemp). 6-min water temperature data can be accessed through [CO-OPS Data API](https://api.tidesandcurrents.noaa.gov/api/prod/).
 
-The QA/QC’d daily water temperature data used in this notebook is available on GitHub. Each station's data is provided as a separate comma-separated values (CSV) file containing daily means, residuals, and quality control (QC) flags.
+The QA/QC’d daily water temperature data used in this notebook is available on GitHub as well as archived on [Zenodo](https://zenodo.org/records/15608585). Each station's data is provided as a separate comma-separated values (CSV) file containing daily means, residuals, and quality control (QC) flags.
 
   Each CSV file includes the following columns:
 
@@ -20,7 +20,7 @@ The QA/QC’d daily water temperature data used in this notebook is available on
   - `automated_flag`
   - `data_fill_flag`
 
-  In the `manual_flag` and `automated_flag` columns, suspect data are marked with a `"1"`, while data that passed quality control remain unflagged. The `data_fill_flag` column indicates the source of any replacement data (e.g., `DCP2 E1`, `DCP3 E1`, `DCP1 E2`) used on that date. If no replacement was applied, this field is left blank.
+  In the `manual_flag` and `automated_flag` columns, suspect data are marked with a `"1"`, while data that passed quality control remain unflagged. The `data_fill_flag` column indicates the source of any replacement data, such as from alternate co-located temperature sensors on different Data Collection Platforms (DCPs), designated as `DCP2 E1`, `DCP3 E1`, `DCP1 E2` used on that date. E1 refers to water temperature measures using a YSI thermistor designated to be the primary sensor. E2 refers to water temperature data collected from the conductivity instrument. If no replacement was applied, this field is left blank. All replacement data were collected and processed through the automated QA/QC process.
 
 A separate csv file, `station_metadata_list`, contains metadata for each station, including:
 
