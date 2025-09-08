@@ -3,7 +3,7 @@
 
 NOAA's CO-OPS collects trusted coastal data—including water temperature, tides, and currents—that helps keep navigation safe, supports commerce, and protects coastal communities and ecosystems. Since the early 1990s, over 220 water temperature sensors have been installed along U.S. coasts and in the Great Lakes. CO-OPS did an in-depth analysis on 174 stations with at least 20 years of data. An automated quality control system was developed to streamline data processing, flagging suspect data, and calculating daily averages. Manual reviews also caught sensor drifts at 47 stations, ensuring the data is reliable for long-term research.
 
-This repository contains both a station and regional-based notebook along with a zip file containing the cleaned daily water temperature data and a csv with the stations and regions used in the analysis for NOAA Technical Report: Evaluation and Quality Control of CO-OPS Coastal Water Temperature Data. It contains the codes and datsets used for CO-OPS technical report entitled '[Evaluation and quality control of CO-OPS coastal water temperature data](https://repository.library.noaa.gov/view/noaa/70917).
+This repository contains both a station and regional-based notebook along with a zip file containing the cleaned daily water temperature data and a csv with the stations and regions used in the analysis for NOAA Technical Report: Evaluation and Quality Control of CO-OPS Coastal Water Temperature Data. It contains the codes and datsets used for CO-OPS technical report entitled '[Evaluation and quality control of CO-OPS coastal water temperature data](https://repository.library.noaa.gov/view/noaa/70917)'.
 
 ## Data Sources and Documentation
 
