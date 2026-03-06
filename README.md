@@ -1,15 +1,17 @@
 # CO-OPS Coastal Water Temperature Example Notebooks
+
 # Overview
 
-NOAA's CO-OPS collects trusted coastal data—including water temperature, tides, and currents—that helps keep navigation safe, supports commerce, and protects coastal communities and ecosystems. Since the early 1990s, over 220 water temperature sensors have been installed along U.S. coasts and in the Great Lakes. CO-OPS did an in-depth analysis on 174 stations with at least 20 years of data. An automated quality control system was developed to streamline data processing, flagging suspect data, and calculating daily averages. Manual reviews also caught sensor drifts at 47 stations, ensuring the data is reliable for long-term research.
+NOAA's CO-OPS collects trusted coastal data—including water temperature, tides, and currents—that helps keep navigation safe, supports commerce, and protects coastal communities and ecosystems. Since the early 1990s, over 220 water temperature sensors have been installed along U.S. coasts and in the Great Lakes. CO-OPS did an in-depth analysis on 174 stations with at least 20 years of data. An automated quality control system was developed to streamline data processing, flagging suspect data, and calculating daily averages. Manual reviews also caught sensor drifts at 47 stations, ensuring the data is reliable for long-term research. Afterwards, CO-OPS also did further work with the good quality data with the primary objectives of demonstating the applicability and usefulness of the data for climate time scale studies by identifying the relationships between water temperature and sea level measured at the same stations, comparing water temperature at tide gauges against a well-known NOAA dataset used for water temperature: NOAA NESDIS OISST, and capturing the local and regonal patterns and variability and linear trends of water temperature along the US coasts.
 
-This repository contains both a station and regional-based notebook along with a zip file containing the cleaned daily water temperature data and a csv with the stations and regions used in the analysis for NOAA Technical Report: Evaluation and Quality Control of CO-OPS Coastal Water Temperature Data. It contains the codes and datasets used for NOAA Technical Report NOS CO-OPS 114 entitled 'Evaluation and quality control of CO-OPS coastal water temperature data' -[https://doi.org/10.25923/n65z-p624](https://repository.library.noaa.gov/view/noaa/70917).
+This repository contains both station and regionaOPS 114 entitled 'Evaluation and quality control of CO-OPS coastal water temperature data' - [https://doi.org/10.25923/n65z-p624](https://repository.library.noaa.gov/view/noaa/70917) and the additional scientific publication [ADD LINK HERE]. In the "Evaluation and Quality Control NOAA Report" folder there are two notebooks along with a zip file containing the cleaned daily water temperature data, and a metadata file. In the "Seasonality and Trends Publication" filder there are two notebooks along with four master csv(s) with the data, two summary statistic files, and a metadata file.
 
 ## Data Sources and Documentation
 
 All data comes from CO-OPS's sensors. Stations with water temperature data can be found via [CO-OPS Metadata API](https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=watertemp). 6-min water temperature data can be accessed through [CO-OPS Data API](https://api.tidesandcurrents.noaa.gov/api/prod/).
 
-The QA/QC’d daily water temperature data used in this notebook is available on GitHub as well as archived on [Zenodo](https://zenodo.org/records/15608585). Each station's data is provided as a separate comma-separated values (CSV) file containing daily means, residuals, and quality control (QC) flags.
+# Evalution and Quality Control NOAA Report Data
+The QA/QC’d daily water temperature data is available on GitHub. Each station's data is provided as a separate comma-separated values (CSV) file containing daily means, residuals, and quality control (QC) flags.
 
   Each CSV file includes the following columns:
 
@@ -20,7 +22,7 @@ The QA/QC’d daily water temperature data used in this notebook is available on
   - `automated_flag`
   - `data_fill_flag`
 
-  In the `manual_flag` and `automated_flag` columns, suspect data are marked with a `"1"`, while data that passed quality control remain unflagged. The `data_fill_flag` column indicates the source of any replacement data, such as from alternate co-located temperature sensors on different Data Collection Platforms (DCPs), designated as `DCP2 E1`, `DCP3 E1`, `DCP1 E2` used on that date. E1 refers to water temperature measures using a YSI thermistor designated to be the primary sensor. E2 refers to water temperature data collected from the conductivity instrument. If no replacement was applied, this field is left blank. All replacement data were collected and processed through the automated QA/QC process.
+  In the `manual_flag` and `automated_flag` columns, suspect data are marked with a `"1"`, while data that passed quality control remain unflagged. The `data_fill_flag` column indicates the source of any replacement data (e.g., `DCP2 E1`, `DCP3 E1`, `DCP1 E2`) used on that date. If no replacement was applied, this field is left blank.
 
 A separate csv file, `station_metadata_list`, contains metadata for each station, including:
 
@@ -41,9 +43,21 @@ A separate csv file, `station_metadata_list`, contains metadata for each station
 
 >   ⚠️ **Note:** Stations classified as **Incomplete** should only be used for testing and exploratory work within this notebook. They should not be used for climatological or other analysis outside this context.
 
+# Seasonality and Trends Publication Data
+
+There are four master csv(s) which each contain time as rows (day, month, day of year...) and each station in the publication as a column including `MASTER_daily_clean_water_temp.csv`, `MASTER_monthly_mean_water_temp`, `MASTER_Station_DOY_Averages`, and `MASTER_Station_Monthly_Climatology`.
+
+There are two summary statistics files:
+  - `station_summary_alltrends.csv` which contains all of the data from the trends analysis
+  - `station_summary_seasonal_stats.csv` which contains all of the data from the seasonal analysis
+
+And a metadata file `station_list_water_temp_climatepaper.csv` which outlines all of the metadata associated with the publicaion including start and end dates, latitude and longitude of the stations, and the metadata of the nearest OISST gridcell to each station.
+
+
+
 ## Set up options
 
-1. **Clone the repository:**  To clone, you will first need to install [Git Bash](https://git-scm.com/downloads). For NOAA users, it is an approved software package that can be self-installed. After installing Git Bash and [to clone and create a local repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository). After cloning, you can use Git Bash to navigate the repository, including downloading (pulling) new updates and viewing all branches. 
+1. **Clone the repository:**  To clone, you will first need to install [Git Bash](https://git-scm.com/downloads). For NOAA users, it is an approved software package that can be self-installed. After installing Git Bash, [use SSH to clone and create a local repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository). After cloning, you can use Git Bash to navigate the repository, including downloading (pulling) new updates and viewing all branches. 
 2. **Download the repository:** To download, simply click the green 'Code' dropdown button on the main page of the coastal water temperature repository. In the drop down menu, select Download ZIP, and unzip it to the location where you'd like to run the software. 
 3. **Open the notebook in Google Colab directly from github:** Open Google Colab. Go to the file dropdown button in the top lefthand corner and click on 'Upload Notebook'. In the pop-up window click GitHub and then enter the GitHub URL.
 
@@ -51,11 +65,19 @@ A separate csv file, `station_metadata_list`, contains metadata for each station
 
 Python notebooks can be run in different environments. These notebooks were created in [Google Colab](https://colab.research.google.com/), but can also be run locally using Jupyter Notebook, VS Code, or PyCharm. Both of the notebooks create a folder for the graphic outputs in the user's working directory.
 
-## Notebook description
+## Notebook descriptions
+
+In `Evaluation and Quality Control NOAA Report` Folder:
 
 The **Coastal_temp_final_station_graphics.ipynb** allows users to explore the cleaned daily averaged water temperature data at over 100 stations. The code plots and saves different figures that represent each station including a time series plot, a residual plot, an average seasonal cycle plot, a seasonal cycle over the years plot, and a heatmap. There is an option in Step 3 for the user to choose to run a single station or run and save plots for all of the stations. Note if you are running the notebook in Google Colab and you want to save the figures, make sure to download the Daily_Water_Final_Plots folder from the files section on the left side of Google Colab.
 
-The **Coastal_temo_final_reginal_graphics.ipynb** allows users to explore the cleaned daily averaged water temperature data at over 40 regions around the US. The code plots and saves different figures that represent the different stations in each region including a time series plot with all stations in a region, the median water temperature, residuals of all stations, and residuals subtracted by group medians. There is an option in Step 3 for the user to choose to run a single region or run and save plots for all of the regions. Note if you are running the notebook in Google Colab and you want to save the figures, make sure to download the Regional_Final_Plots folder from the files section on the left side of Google Colab.
+The **Coastal_temp_final_reginal_graphics.ipynb** allows users to explore the cleaned daily averaged water temperature data at over 40 regions around the US. The code plots and saves different figures that represent the different stations in each region including a time series plot with all stations in a region, the median water temperature, residuals of all stations, and residuals subtracted by group medians. There is an option in Step 3 for the user to choose to run a single region or run and save plots for all of the regions. Note if you are running the notebook in Google Colab and you want to save the figures, make sure to download the Regional_Final_Plots folder from the files section on the left side of Google Colab.
+
+In `Seasonality and Trends Publication` Folder:
+
+The **Coastal_temp_seasonality_trend_viewer.ipynb** allows users to calculate the day of year and monthly averaged seasonal cycle as well as calculate a long-term linear trend using an ARIMA model. The code plots and saves the 3 figures as well as saves the trends analysis results into a csv. There is an option in Step 3 for the user to choose to run a single station or run and save plots and trends results for all of the stations. Note if you are running the notebook in Google Colab and you want to save the figures, make sure to download the "Monthly_Climatology", "Seasonal_cycles", and "Trends" folders as well as the master_trend_analysis_results.csv from the files section on the left side of Google Colab.
+
+The **Coastal_temp_seasonality_trend_regional_graphics.ipynb** allows users to recreate some of the summary graphics in the publication including the seasonal water temperature anomaly, comparision of water with air temperature and water levels, and a summary graphic of the water temperature trends. The code plots and saves the three summary figures. Note if you are running the notebook in Google Colab and you want to save the figures, you can download them from the files section on the left side of Google Colab.
 
 #### For additional information, contact:
 
