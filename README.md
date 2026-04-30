@@ -4,7 +4,7 @@
 
 NOAA's CO-OPS collects trusted coastal data—including water temperature, tides, and currents—that helps keep navigation safe, supports commerce, and protects coastal communities and ecosystems. Since the early 1990s, over 220 water temperature sensors have been installed along U.S. coasts and in the Great Lakes. CO-OPS did an in-depth analysis on 174 stations with at least 20 years of data. An automated quality control system was developed to streamline data processing, flagging suspect data, and calculating daily averages. Manual reviews also caught sensor drifts at 47 stations, ensuring the data is reliable for long-term research. Afterwards, CO-OPS also did further work with the good quality data with the primary objectives of demonstating the applicability and usefulness of the data for climate time scale studies by identifying the relationships between water temperature and sea level measured at the same stations, comparing water temperature at tide gauges against a well-known NOAA dataset used for water temperature: NOAA NESDIS OISST, and capturing the local and regonal patterns and variability and linear trends of water temperature along the US coasts.
 
-This repository contains both station and regionaOPS 114 entitled 'Evaluation and quality control of CO-OPS coastal water temperature data' - [https://doi.org/10.25923/n65z-p624](https://repository.library.noaa.gov/view/noaa/70917) and the additional scientific publication [ADD LINK HERE]. In the "Evaluation and Quality Control NOAA Report" folder there are two notebooks along with a zip file containing the cleaned daily water temperature data, and a metadata file. In the "Seasonality and Trends Publication" filder there are two notebooks along with four master csv(s) with the data, two summary statistic files, and a metadata file.
+This repository contains both station and regional-based notebooks associated with both the NOAA Technical Report NOS CO- and the additional publication. In the "Evaluation and Quality Control NOAA Report" folder there are two notebooks along with a zip file containing the cleaned daily water temperature data, and a metadata file. In the "Seasonality and Trends Publication" filder there are two notebooks along with four master csv(s) with the data, two summary statistic files, and a metadata file.
 
 ## Data Sources and Documentation
 
@@ -47,11 +47,11 @@ A separate csv file, `station_metadata_list`, contains metadata for each station
 
 There are four master csv(s) which each contain time as rows (day, month, day of year...) and each station in the publication as a column including `MASTER_daily_clean_water_temp.csv`, `MASTER_monthly_mean_water_temp`, `MASTER_Station_DOY_Averages`, and `MASTER_Station_Monthly_Climatology`.
 
-There are two summary statistics files:
-  - `station_summary_alltrends.csv` which contains all of the data from the trends analysis
-  - `station_summary_seasonal_stats.csv` which contains all of the data from the seasonal analysis
-
-And a metadata file `station_list_water_temp_climatepaper.csv` which outlines all of the metadata associated with the publicaion including start and end dates, latitude and longitude of the stations, and the metadata of the nearest OISST gridcell to each station.
+The `Metadata and output results.xlsx` contains 4 data tabs and 4 metadata tabs. 
+  - `Station inventory` tab contains basic station info including coordinates, region, POR, and metadata for both the WT and AT data.
+  - `Seasonality` tab contains water temperature, air temperature, and mean sea level seasonality data including ranges, climotological peaks, and correlations/shifts between them.
+  - `Trends` tab contains the water temperatire trends (monthly, annual max, and annual min) as well as msl trends for each station.
+  - `Daily distribution and extremes` tab contains mean observed values, variance, kurtosis, extreme percentiles of daily mean water temperature and daily mean water temperature anomalies.
 
 
 
